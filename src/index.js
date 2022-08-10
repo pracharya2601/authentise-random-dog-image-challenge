@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
-import { sendToVercelAnalytics } from './vitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import { initializeAPI } from 'api/initializeAPI';
+
+initializeAPI();
 
 ReactDOM.render(
   <React.StrictMode>
@@ -12,4 +14,3 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-reportWebVitals(sendToVercelAnalytics);
