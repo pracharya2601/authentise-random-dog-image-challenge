@@ -18,7 +18,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd authentise-random-dog-image-challenge
 ```
 
 Install dependencies
