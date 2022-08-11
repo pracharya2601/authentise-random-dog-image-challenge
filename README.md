@@ -12,7 +12,7 @@ Random Doggie Viewer uses Dog CEO API to display the random images of dog.
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone git@github.com:pracharya2601/authentise-random-dog-image-challenge.git
 ```
 
 Go to the project directory
